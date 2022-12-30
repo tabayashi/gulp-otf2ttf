@@ -1,0 +1,28 @@
+{
+  "name": "gulp-otf2ttf",
+  "version": "1.0.0",
+  "description": "Gulp plugin for converting OpenType font to TrueType.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tabayashi/gulp-otf2ttf.git"
+  },
+  "keywords": [
+    "otf2ttf"
+  ],
+  "author": "Eiki Tabayashi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tabayashi/gulp-otf2ttf/issues"
+  },
+  "homepage": "https://github.com/tabayashi/gulp-otf2ttf#readme",
+  "dependencies": {
+    "lazypipe": "^1.0.2",
+    "otf2ttf": "^1.1.2",
+    "through2": "^4.0.2",
+    "vinyl": "^3.0.0"
+  }
+}
